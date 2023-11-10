@@ -40,6 +40,10 @@ main {
   background: var(--dark-bg);
 }
 
+header nav ul li {
+    padding: 0 5px 0;
+  }
+
 .nav {
   margin: 0 auto;
   max-width: 1400px;
@@ -270,6 +274,11 @@ main {
   width: 100%;
   height: 4px;
   background-color: var(--secondary-accent);
+}
+
+.footer-content {
+    text-align: center;
+    align-self: baseline;
 }
 
 @media screen and (max-width: 968px) {
